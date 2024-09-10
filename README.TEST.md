@@ -95,6 +95,88 @@ These examples showcase different types of transactions that the tracker will mo
 - **Codebase Comments**:
   - Include comments within the code to explain functionality and improve readability.
 
+## **Deliverables**
+
+- **TypeScript-Based ETH Deposit Tracker Application**:
+  - A fully functional application built with TypeScript to track ETH deposits.
+
+- **Repository**:
+  - A GitHub repository containing the complete source code, with proper structure and documentation.
+
+- **README File**:
+  - A comprehensive README file with setup instructions, usage details, and examples.
+
+- **Error Handling and Logging**:
+  - Integrated mechanisms for handling errors and logging significant events.
+
+- **Alerting System**:
+  - A functional alerting system with a Grafana dashboard and Telegram notifications.
+
+## **Setup Development Environment**
+
+- **Install Node.js and TypeScript**:
+  - Download and install Node.js from [nodejs.org](https://nodejs.org/).
+  - Install TypeScript globally using the command:
+
+    ```bash
+    npm install -g typescript
+    ```
+
+- **Initialize Project Repository**:
+  - Create a new project directory and navigate to it.
+  - Run `npm init` to generate a `package.json` file.
+
+- **Install Dependencies**:
+  - Install necessary packages such as `ethers` for Ethereum interaction and `axios` for HTTP requests.
+  - Use the command:
+
+    ```bash
+    npm install ethers axios
+    ```
+
+## **Usage Instructions**
+
+- **Clone the Repository**:
+  - Use the command:
+
+    ```bash
+    git clone [repository-url]
+    ```
+
+    to clone the project repository to your local machine.
+
+- **Navigate to the Project Directory**:
+  - Use:
+
+    ```bash
+    cd [project-directory]
+    ```
+
+    to move into the project folder.
+
+- **Install Dependencies**:
+  - Run:
+
+    ```bash
+    npm install
+    ```
+
+    to install all required dependencies listed in the `package.json` file.
+
+- **Configure Ethereum RPC Provider**:
+  - Edit the project settings to include your Ethereum RPC provider credentials (e.g., Infura or Alchemy API key).
+
+- **Run the Application**:
+  - Start the application with the command:
+
+    ```bash
+    npm start
+    ```
+
+- **Monitor the Grafana Dashboard**:
+  - Access the Grafana dashboard to view real-time updates and metrics related to ETH deposits.
+
+    
 ## **Schema of Deposit**
 
 Here is the schema for a deposit record:
@@ -107,3 +189,6 @@ Deposit {
     hash?: string;             // (Optional) The transaction hash
     pubkey: string;            // The public key associated with the deposit
 }
+
+
+
